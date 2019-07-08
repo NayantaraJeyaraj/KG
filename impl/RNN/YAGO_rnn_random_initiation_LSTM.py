@@ -32,7 +32,7 @@ tf.set_random_seed(seed)
 
 
 df = pd.DataFrame()
-df = pd.read_csv('../../data_yago/triple.csv')
+df = pd.read_csv('../../data/yago_triples.csv')
 triple_lines = list()
 lines = df['triple'].values.tolist()
 
